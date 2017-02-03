@@ -12,22 +12,15 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 8888, host: 8888
 
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "512"
+    vb.memory = "1024"
   end
 
-  config.vm.provision "shell", inline: <<-SHELL
-    sudo apt-get update
-    sudo apt-get install -y python-dev
-    sudo apt-get install -y python-pip
-    sudo pip install --upgrade pip setuptools
-    sudo pip install --upgrade ipython
-    sudo pip install --upgrade jupyter
-    sudo pip install --upgrade pandas
-    sudo pip install --upgrade matplotlib
-    sudo mkdir -p /vagrant/notebook
-  SHELL
+  config.vm.provision "ansible_local" do |ansible|
+    ansible.playbook = "playbook.yml"
+  end
 
   config.vm.provision "shell", run: "always", inline: <<-SHELL
+    source /home/vagrant/venv/bin/activate
     jupyter notebook --notebook-dir=/vagrant/notebook --no-browser --ip=0.0.0.0
   SHELL
 

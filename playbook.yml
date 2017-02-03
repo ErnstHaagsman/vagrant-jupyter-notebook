@@ -1,0 +1,51 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+  - name: Install python and pip
+    apt:
+      name: "{{ item }}"
+      update_cache: yes
+    with_items:
+      - python-dev
+      - python-pip
+
+
+  - name: Upgrade pip and setuptools
+    pip:
+      name: "{{ item }}"
+      state: latest
+    with_items:
+      - pip
+      - setuptools
+
+
+  - name: Install venv
+    pip:
+      name: virtualenv
+      state: latest
+
+
+  - name: Create app directory
+    file:
+      path: /vagrant/notebook
+      state: directory
+
+
+  - name: Create venv directory
+    file:
+      path: /home/vagrant/venv
+      state: directory
+
+
+  - name: Install packages
+    pip:
+      name: "{{ item }}"
+      virtualenv: /home/vagrant/venv
+      state: present
+    with_items:
+      - ipython
+      - jupyter
+      - pandas
+      - matplotlib
