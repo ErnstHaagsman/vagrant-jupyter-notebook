@@ -1,0 +1,211 @@
+year,area,domestic_exports
+1980,America,4497
+1980,Asia,13692.4
+1980,Europe,3901.6
+1980,Oceania,2831
+1980,Africa,884
+1980,European Union,na
+1981,America,5227
+1981,Asia,16525.4
+1981,Europe,3786.6
+1981,Oceania,2760
+1981,Africa,1153
+1981,European Union,na
+1982,America,5018
+1982,Asia,16798.1
+1982,Europe,3578.9
+1982,Oceania,2696
+1982,Africa,1067
+1982,European Union,na
+1983,America,6910
+1983,Asia,15822.6
+1983,Europe,3500.4
+1983,Oceania,2005
+1983,Africa,969
+1983,European Union,na
+1984,America,8695
+1984,Asia,16674.3
+1984,Europe,4386.7
+1984,Oceania,2306
+1984,Africa,990
+1984,European Union,na
+1985,America,8936
+1985,Asia,16255
+1985,Europe,4155
+1985,Oceania,2476
+1985,Africa,754
+1985,European Union,na
+1986,America,10201
+1986,Asia,15076.5
+1986,Europe,4098.5
+1986,Oceania,1923
+1986,Africa,764
+1986,European Union,na
+1987,America,13163
+1987,Asia,17690
+1987,Europe,5659
+1987,Oceania,1826
+1987,Africa,732
+1987,European Union,na
+1988,America,16836
+1988,Asia,21903
+1988,Europe,8043
+1988,Oceania,1952
+1988,Africa,822
+1988,European Union,na
+1989,America,17812.3
+1989,Asia,24897.1
+1989,Europe,9207.9
+1989,Oceania,2540.3
+1989,Africa,795.4
+1989,European Union,na
+1990,America,18159
+1990,Asia,29377.1
+1990,Europe,11564.8
+1990,Oceania,2638.5
+1990,Africa,1014.6
+1990,European Union,na
+1991,America,18070.8
+1991,Asia,31876.1
+1991,Europe,12403.9
+1991,Oceania,2558.2
+1991,Africa,1122
+1991,European Union,na
+1992,America,19150.4
+1992,Asia,30444.6
+1992,Europe,13190.2
+1992,Oceania,2541.4
+1992,Africa,1010.2
+1992,European Union,na
+1993,America,21217.9
+1993,Asia,36527
+1993,Europe,14244.5
+1993,Oceania,2380.4
+1993,Africa,1024.2
+1993,European Union,na
+1994,America,23756.8
+1994,Asia,45356.5
+1994,Europe,15550.4
+1994,Oceania,2851.7
+1994,Africa,1017.8
+1994,European Union,na
+1995,America,26233.5
+1995,Asia,50863.1
+1995,Europe,17311.4
+1995,Oceania,3019.1
+1995,Africa,1045.6
+1995,European Union,na
+1996,America,27906.7
+1996,Asia,53824.3
+1996,Europe,17835.1
+1996,Oceania,3093.8
+1996,Africa,928.9
+1996,European Union,na
+1997,America,29192.7
+1997,Asia,55016.1
+1997,Europe,19381
+1997,Oceania,2997.8
+1997,Africa,947.6
+1997,European Union,na
+1998,America,30407.5
+1998,Asia,50197.3
+1998,Europe,21386.8
+1998,Oceania,2938.3
+1998,Africa,987.7
+1998,European Union,na
+1999,America,31517.7
+1999,Asia,56987.4
+1999,Europe,22748.6
+1999,Oceania,3979
+1999,Africa,1092.3
+1999,European Union,22289.8
+2000,America,33185.2
+2000,Asia,73466.9
+2000,Europe,22519.8
+2000,Oceania,5001.8
+2000,Africa,1764.4
+2000,European Union,21868.6
+2001,America,26015.3
+2001,Asia,66382
+2001,Europe,19921.3
+2001,Oceania,4859.3
+2001,Africa,1266.5
+2001,European Union,19233.2
+2002,America,26942.1
+2002,Asia,67224.1
+2002,Europe,18503.2
+2002,Oceania,5323.4
+2002,Africa,1444.7
+2002,European Union,17916.9
+2003,America,28082.6
+2003,Asia,89338.3
+2003,Europe,24347.6
+2003,Oceania,7024.5
+2003,Africa,1764.9
+2003,European Union,23591.8
+2004,America,29964.2
+2004,Asia,107412.6
+2004,Europe,30307
+2004,Oceania,10203.1
+2004,Africa,2313.5
+2004,European Union,29273.1
+2005,America,30481.6
+2005,Asia,127210.4
+2005,Europe,32611.5
+2005,Oceania,14154.8
+2005,Africa,2989.4
+2005,European Union,31543.5
+2006,America,35900.7
+2006,Asia,137654.4
+2006,Europe,34668
+2006,Oceania,15486.2
+2006,Africa,3668.6
+2006,European Union,32923.4
+2007,America,39597.6
+2007,Asia,140908.6
+2007,Europe,34695.2
+2007,Oceania,15555
+2007,Africa,4146.7
+2007,European Union,33233.6
+2008,America,38459.6
+2008,Asia,149612.6
+2008,Europe,33286.6
+2008,Oceania,18965.2
+2008,Africa,7293.9
+2008,European Union,31713.5
+2009,America,32154.4
+2009,Asia,122946.2
+2009,Europe,26648.6
+2009,Oceania,13468
+2009,Africa,4786
+2009,European Union,24840.8
+2010,America,36358.2
+2010,Asia,154912.5
+2010,Europe,34325.9
+2010,Oceania,16048.5
+2010,Africa,6964.8
+2010,European Union,32512.2
+2011,America,40585.6
+2011,Asia,174711.3
+2011,Europe,36913.5
+2011,Oceania,20289.7
+2011,Africa,8849.5
+2011,European Union,34039.8
+2012,America,39011.5
+2012,Asia,179805.1
+2012,Europe,35780.6
+2012,Oceania,21690.8
+2012,Africa,8858.9
+2012,European Union,33275.9
+2013,America,37116.5
+2013,Asia,179148.6
+2013,Europe,28909.5
+2013,Oceania,20626
+2013,Africa,8391.7
+2013,European Union,25397
+2014,America,35385.5
+2014,Asia,181409
+2014,Europe,28275
+2014,Oceania,19847
+2014,Africa,8575.6
+2014,European Union,25463.4
