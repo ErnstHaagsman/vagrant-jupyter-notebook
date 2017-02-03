@@ -3,6 +3,7 @@
   <component name="IpnbSettings">
     <option name="username" value="vagrant" />
     <option name="workingDirectory" value="" />
+    <option name="URL" value="https://127.0.0.1:8888" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 2.7.6 Vagrant VM at C:\Users\Ernst.Haagsman\PycharmProjects\SingaporeData (/home/vagrant/venv/bin/python)" project-jdk-type="Python SDK" />
 </project>
