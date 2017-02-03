@@ -1,6 +1,8 @@
 ---
 - hosts: all
   become: yes
+  vars:
+    password: pwd4IPynb
   tasks:
 
   - name: Install python and pip
@@ -49,3 +51,23 @@
       - jupyter
       - pandas
       - matplotlib
+
+  - name: Copy password script
+    copy:
+      src: ansible_files/encode_password.py
+      dest: /home/vagrant/encode_password.py
+
+
+  - name: Encode password
+    shell: "/home/vagrant/venv/bin/python /home/vagrant/encode_password.py {{ password }}"
+    register: encoded_password
+
+
+  - name: Ensure .jupyter folder exists
+    file: path=/home/vagrant/.jupyter state=directory
+
+
+  - name: Template jupyter config file
+    template:
+      src: ansible_files/jupyter_notebook_config.py.j2
+      dest: /home/vagrant/.jupyter/jupyter_notebook_config.py

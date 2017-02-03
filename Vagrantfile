@@ -19,9 +19,9 @@ Vagrant.configure(2) do |config|
     ansible.playbook = "playbook.yml"
   end
 
-  config.vm.provision "shell", run: "always", inline: <<-SHELL
+  config.vm.provision "shell", privileged: false, run: "always", inline: <<-SHELL
     source /home/vagrant/venv/bin/activate
-    jupyter notebook --notebook-dir=/vagrant/notebook --no-browser --ip=0.0.0.0
+    jupyter notebook &
   SHELL
 
 end
