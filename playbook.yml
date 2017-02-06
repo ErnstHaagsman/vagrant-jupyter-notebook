@@ -52,6 +52,7 @@
       - pandas
       - matplotlib
 
+
   - name: Copy password script
     copy:
       src: ansible_files/encode_password.py
@@ -61,6 +62,14 @@
   - name: Encode password
     shell: "/home/vagrant/venv/bin/python /home/vagrant/encode_password.py {{ password }}"
     register: encoded_password
+
+
+  - name: Generate certificate and key for SSL
+    shell: >
+      openssl req -x509 -nodes -days 365 -newkey rsa:1024
+      -keyout /home/vagrant/mykey.key
+      -out /home/vagrant/mycert.pem
+      -subj "/C=DE/ST=State/L=City/O=Org/OU=Unit/CN=Email"
 
 
   - name: Ensure .jupyter folder exists
